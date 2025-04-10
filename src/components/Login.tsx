@@ -64,7 +64,6 @@ function Login(): JSX.Element {
 
   return (
     <>
-    <p>holaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa :)</p>
     <div className="background">
       <div className="shape"></div>
       <div className="shape"></div>
