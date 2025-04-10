@@ -49,7 +49,7 @@ function CompleteAddress(): JSX.Element{
         if(hasAddress && addressCreated){
             setTimeout(() => {
                 navigate("/home", { replace: true });
-              }, 2000);
+              });
               
             // navigate("/home", {replace: true});
         }
@@ -122,7 +122,7 @@ function CompleteAddress(): JSX.Element{
             placeholder="ZIP Code"
           />
       
-          <button type="submit">Save profile</button>
+          <button type="submit">Save address</button>
           <button type="button" onClick={() => navigate("/home")}>Back</button>
         </form>
       </>
