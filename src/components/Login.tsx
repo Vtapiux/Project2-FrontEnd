@@ -69,8 +69,7 @@ function Login(): JSX.Element {
       <div className="shape"></div>
     </div>
     <form className="login-form" onSubmit={handleLogin}>
-      <h3>Login Here</h3>
-      <p>Jenkins Test</p>
+      <h3 style={{ color: 'red' }}>Login Here</h3>
 
       <label htmlFor="username">Username</label>
       <input
